@@ -1,0 +1,6 @@
+@mixin flex($jc: flex-star, $ai: center) {
+    display: flex;
+    justify-content: $jc;
+    align-items: $ai;
+  }
+  

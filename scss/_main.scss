@@ -46,8 +46,7 @@
         height: 200px;
     }
     &__item {
-        display: flex;
-        align-items: center;
+        @include flex;
     }
     &__flag {
         width:100px;
@@ -60,8 +59,7 @@
     padding-left: 20px;
     padding-top: 20px;
     &__item {
-        display: flex;
-        align-items: center;
+        @include flex;
         margin-top: 15px;
     }
     &__flag {
